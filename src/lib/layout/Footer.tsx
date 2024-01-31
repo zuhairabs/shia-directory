@@ -8,12 +8,14 @@ const Footer = () => {
       align="center"
       alignSelf="flex-end"
       justifyContent="center"
+      marginBottom="2rem"
     >
       <Text fontSize="xs">
-        {new Date().getFullYear()} -{' '}
-        <Link href="https://sznm.dev" isExternal>
-          sznm.dev
-        </Link>
+        &copy;{' '}
+        <Link href="https://zuhairabs.github.io" isExternal>
+          Syed Zuhair Abbas
+        </Link>{' '}
+        - {new Date().getFullYear()}
       </Text>
     </Flex>
   );
